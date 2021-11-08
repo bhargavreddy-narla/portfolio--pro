@@ -1,0 +1,24 @@
+.aboutpage {
+  .aboutpage--H2 {
+    color: #000a2d;
+    font-size: 70px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    font-family: "Rufina", serif;
+    font-style: normal;
+    margin-left: 10rem;
+    padding-top: 5rem;
+  }
+  .aboutpage--Breadcrumbs {
+    margin-left: 10rem;
+  }
+  .aboutpage--Breadcrumbs a {
+    color: #ec5b53;
+    font-size: 18px;
+    text-transform: capitalize;
+    text-decoration: none;
+    background-color: transparent;
+    font-family: "Rubik", sans-serif;
+  }
+}

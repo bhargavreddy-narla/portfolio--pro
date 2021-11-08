@@ -1,0 +1,56 @@
+.homebody1 {
+  margin-top: 7rem;
+  .homebody1--H2 {
+    font-size: 30px;
+    color: #000a2d;
+    font-weight: 700;
+    margin-bottom: 35 px;
+    line-height: 1.5;
+    font-family: "Rufina", serif;
+    margin-left: 10rem;
+  }
+  .homebody1--Para1 {
+    font-family: "Rubik", sans-serif;
+    color: #10285d;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: normal;
+    margin-left: 10rem;
+    margin-bottom: 25px;
+  }
+  .homebody1--Heading2 {
+    font-size: 40px;
+    color: #000a2d;
+    font-weight: 700;
+    margin-bottom: 35px;
+    line-height: 1.5;
+    font-family: "Rufina", serif;
+    align-items: center;
+    margin-left: 6rem;
+  }
+  .homebody1--Para2 {
+    color: #464d65;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-family: "Rubik", sans-serif;
+    margin-left: 6rem;
+  }
+  .homebody1--Link {
+    color: #000a2d;
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    margin-left: 6rem;
+  }
+  .homebody1--Icons {
+    font-size: 30px;
+    cursor: pointer;
+    text-decoration: double underline;
+    position: relative;
+    //bottom: -10px;
+    margin-top: 15rem;
+    display: block;
+  }
+}

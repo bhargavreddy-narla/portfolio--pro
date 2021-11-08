@@ -1,0 +1,70 @@
+.homebody7 {
+  margin-top: 10rem;
+  margin-bottom: 7rem;
+  .homebody7--H2 {
+    font-size: 48px;
+    display: block;
+    color: #000a2d;
+    font-weight: 600;
+    margin-bottom: 40px;
+    font-family: "Rufina", serif;
+    font-style: normal;
+    margin-left: 10rem;
+    margin-top: 8rem;
+  }
+  .homebody7--Para {
+    margin-left: 10rem;
+    font-family: "Rubik", sans-serif;
+    color: #10285d;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: normal;
+    margin-bottom: 40px;
+  }
+  .homebody7--Img {
+    margin-left: 10rem;
+  }
+  .form {
+    margin-top: 8rem;
+    .homebody7--Form {
+      background: #fff;
+      height: 40px;
+      width: 20rem;
+      padding: 10px 26px;
+      border: 0;
+      color: #a3a3a3;
+      font-weight: 500;
+      text-transform: capitalize;
+      border-radius: 0;
+      margin-bottom: 30px;
+      display: block;
+      border: none;
+    }
+    .homebody7--Form--Text {
+      background: #fff;
+      height: 100px;
+      width: 20rem;
+      padding: 10px 26px;
+      border: 0;
+      color: #a3a3a3;
+      font-weight: 500;
+      text-transform: capitalize;
+      border-radius: 0;
+      margin-bottom: 30px;
+      display: block;
+      border: none;
+    }
+    .homebody7--Form--Button {
+      background: #ec5b53;
+      width: 25rem;
+      height: 60px;
+      padding: 10px 20px;
+      color: #fff;
+      text-transform: capitalize;
+      cursor: pointer;
+      font-size: 16px;
+      border-radius: 0;
+      margin-bottom: 3rem;
+    }
+  }
+}

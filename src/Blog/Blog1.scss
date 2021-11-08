@@ -1,0 +1,93 @@
+.Blogpage {
+  margin-left: 10rem;
+  margin-top: 8rem;
+  margin-bottom: 10rem;
+  .Blogpage--Cards {
+    .Blogpage--Cards--Img {
+      width: 100%;
+    }
+    .Blogpage--Cards--H3 a {
+      font-family: "Rufina", serif;
+      color: #000a2d;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      margin-bottom: 15px;
+      line-height: 1.2;
+      margin-left: 1rem;
+      text-decoration: none;
+    }
+    .Blogpage--Cards--H3 a:hover {
+      color: rgb(250, 86, 86);
+    }
+    .Blogpage--Cards--P1 {
+      font-family: "Rubik", sans-serif;
+      color: #10285d;
+      font-size: 16px;
+      line-height: 30px;
+      font-weight: normal;
+      margin-bottom: 30px;
+      margin-left: 1rem;
+    }
+    .Blogpage--Cards--Icons a {
+      text-decoration: none;
+      color: #999;
+    }
+    .Blogpage--Cards--Icons a:hover {
+      color: rgb(250, 86, 86);
+    }
+  }
+  .Blogpage--Cards--Pagination {
+    margin-top: 3rem;
+    margin-left: 20rem;
+  }
+  .Blogpage--Sidecontent {
+    margin-left: 3rem;
+    .Blogpage--Sidecontent--Input {
+      height: 50px;
+      width: 100%;
+      font-size: 13px;
+      color: #999;
+      padding-left: 20px;
+      display: block;
+      line-height: 1.5;
+      border: none;
+      background: rgb(252, 250, 250);
+    }
+    .Blogpage--Sidecontent--Button {
+      display: block;
+      width: 100%;
+      background: #fff;
+      color: #ec5b53 !important;
+      display: inline-block;
+      padding: 18px 44px;
+      font-family: "Rufina", serif;
+      font-size: 14px;
+      font-weight: 400;
+      border: 1px solid #ec5b53;
+      letter-spacing: 3px;
+      text-align: center;
+      text-transform: uppercase;
+      cursor: pointer;
+      margin-top: 1rem;
+    }
+    .Blogpage--Sidecontent--Card2 {
+      margin-top: 3rem;
+    }
+    .Blogpage--Sidecontent--Card2--H4 {
+      font-family: "Rufina", serif;
+      color: #000a2d;
+      margin-top: 0;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+    }
+    .Blogpage--Sidecontent--Card2 a {
+      display: block;
+      text-decoration: none;
+    }
+    .Blogpage--Sidecontent--Card2 a:hover {
+      color: red;
+    }
+  }
+}

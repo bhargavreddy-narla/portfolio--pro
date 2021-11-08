@@ -1,0 +1,43 @@
+.aboutpage--Body {
+  margin-left: 10rem;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  .aboutpage--Body--H3 {
+    font-size: 65px;
+    display: block;
+    color: hsl(227, 100%, 9%);
+    font-weight: 500;
+    margin-bottom: 40px;
+    font-family: "Rufina", serif;
+    font-style: normal;
+    line-height: 1.2;
+  }
+  .aboutpage--Body--P1 {
+    font-family: "Rubik", sans-serif;
+    color: #10285d;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    font-weight: normal;
+    padding-bottom: 30px;
+  }
+  .aboutpage--Body--H4 {
+    padding-left: 25px;
+    border-left: 2px solid #ff5f13;
+    margin-bottom: 30px;
+    font-family: "Rufina", serif;
+    color: #000a2d;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.2;
+  }
+  .aboutpage--Body--P2 {
+    font-family: "Rubik", sans-serif;
+    color: #10285d;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    font-weight: normal;
+  }
+}
