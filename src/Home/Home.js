@@ -4,8 +4,7 @@ import { motion } from "framer-motion";
 import Button from "@mui/material/Button";
 import Grid from "@mui/material/Grid";
 import { makeStyles } from "@material-ui/core/styles";
-import AppBar from "@mui/material/AppBar";
-import Toolbar from "@mui/material/Toolbar";
+
 
 const Home = () => {
   const useStyles = makeStyles(() => ({

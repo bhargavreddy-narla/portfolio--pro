@@ -1,0 +1,24 @@
+.portfoliopage {
+  .portfoliopage--H2 {
+    color: #000a2d;
+    font-size: 70px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    font-family: "Rufina", serif;
+    font-style: normal;
+    margin-left: 10rem;
+    padding-top: 5rem;
+  }
+  .portfoliopage--Breadcrumbs {
+    margin-left: 10rem;
+  }
+  .portfoliopage--Breadcrumbs a {
+    color: #ec5b53;
+    font-size: 18px;
+    text-transform: capitalize;
+    text-decoration: none;
+    background-color: transparent;
+    font-family: "Rubik", sans-serif;
+  }
+}

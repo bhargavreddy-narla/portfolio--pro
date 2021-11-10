@@ -1,0 +1,82 @@
+.contactbody {
+  margin-left: 10rem;
+  margin-top: 10rem;
+  .contactbody--map {
+    margin-right: 5rem;
+  }
+  .contactbody--H2 {
+    font-size: 27px;
+    font-weight: 600;
+    margin-top: 5rem;
+    margin-bottom: 20px;
+    font-family: "Rufina", serif;
+    color: #000a2d;
+    font-style: normal;
+    margin-left: 2rem;
+  }
+  .contactbody--Form--Text {
+    width: 800px;
+    height: 200px;
+    border: 1px solid #e5e6e9;
+    padding-left: 18px;
+    font-size: 13px;
+    background: transparent;
+    margin-left: 2rem;
+  }
+  .contactbody--Name--Email {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    .contactbody--Name {
+      display: inline-block;
+      width: 370px;
+      border: 1px solid #e5e6e9;
+      border-radius: 0;
+      height: 48px;
+      padding-left: 18px;
+      font-size: 13px;
+      background: transparent;
+    }
+    .contactbody--Email {
+      border: 1px solid #e5e6e9;
+      width: 370px;
+      border-radius: 0;
+      height: 48px;
+      padding-left: 18px;
+      font-size: 13px;
+      background: transparent;
+      margin-left: 2.5rem;
+    }
+  }
+  .contactbody--Form--Subject {
+    width: 800px;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    border: 1px solid #e5e6e9;
+    border-radius: 0;
+    height: 48px;
+    padding-left: 18px;
+    font-size: 13px;
+    background: transparent;
+  }
+  .contactbopdy--Sidecontent {
+  }
+  .contactbody--Address {
+    margin-top: -3rem;
+    margin-left: 3rem;
+  }
+  .contactbody--Address--H3 {
+    font-size: 18px;
+    color: #2a2a2a;
+    font-style: normal;
+    font-weight: 500;
+    font-family: "Rufina", serif;
+  }
+  .contactbody--Address--P1 {
+    font-family: "Rubik", sans-serif;
+    color: #8a8a8a;
+    font-size: 16px;
+    margin-bottom: 40px;
+    font-weight: normal;
+    margin-top: -0.5rem;
+  }
+}

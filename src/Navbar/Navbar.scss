@@ -5,20 +5,19 @@
     line-height: 1.5;
     text-align: left;
     margin-top: 1rem;
+    margin-left: 2rem;
   }
   .navbar--Links ul li {
     display: inline-block;
     margin-left: 4rem;
-    font-size: 16px;
-    font-weight: 500;
-    font-family: "Rubik", sans-serif;
-    color: #000019;
     list-style-type: none;
-    text-decoration: none;
-    border-bottom: none;
   }
   .navbar--Links--Content {
     text-decoration: none;
+    color: #000019;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: "Rubik", sans-serif;
   }
   .navbar--Links Button {
     padding: 0.8rem;
