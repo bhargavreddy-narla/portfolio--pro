@@ -1,6 +1,7 @@
 import React from "react";
 import "./Contact1.scss";
 import Grid from "@mui/material/Grid";
+import Button from "@mui/material/Button";
 import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
 import PhoneIphoneOutlinedIcon from "@mui/icons-material/PhoneIphoneOutlined";
 import EmailOutlinedIcon from "@mui/icons-material/EmailOutlined";
@@ -41,6 +42,7 @@ const Contact1 = () => {
             placeholder="Enter Subject"
             className="contactbody--Form--Subject"
           />
+          <Button className="contact--Button">SEND</Button>
         </Grid>
         <Grid item xs={4}>
           <div className="contactbopdy--Sidecontent">

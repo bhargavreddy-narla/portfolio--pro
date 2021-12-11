@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.scss";
+import portimg from "../Images/portimg.webp";
 import Grid from "@mui/material/Grid";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import FacebookIcon from "@mui/icons-material/Facebook";
@@ -12,10 +13,7 @@ const Footer = () => {
     <div className="footer">
       <center>
         <a href="#">
-          <img
-            className="footer--Img"
-            src="https://preview.colorlib.com/theme/personalportfolio/assets/img/logo/xlogo2_footer.png.pagespeed.ic.Qo1tA9v0wW.webp"
-          ></img>
+          <img src={portimg} className="footer--Img" />
         </a>
       </center>
       <h2 className="footer--H2">

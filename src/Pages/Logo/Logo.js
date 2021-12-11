@@ -2,30 +2,26 @@ import React from "react";
 import "./Logo.scss";
 import Logo1 from "../Logo/Logo1";
 import Grid from "@mui/material/Grid";
+import lb1 from "../../Images/lb1.webp";
+import lv1 from "../../Images/lv1.webp";
+import lv2 from "../../Images/lv2.webp";
+
 const Logo = () => {
   return (
     <div className="logo--Content--Links">
       <Grid xs={12} container>
         <Grid item xs={8} className="logo--Content--Links--Main">
           <a href="#">
-            <img
-              src="https://preview.colorlib.com/theme/personalportfolio/assets/img/service/xservices2.png.pagespeed.ic.ptrM11wVrw.webp"
-              width="750"
-              height="751"
-            />
+            <img src={lb1} style={{ width: "750px", height: "751px" }} />
           </a>
         </Grid>
         <Grid item xs={4} className="logo--Content--Links--Sideimages">
           <a href="#" style={{ marginLeft: "-3rem" }}>
-            <img
-              src="https://preview.colorlib.com/theme/personalportfolio/assets/img/service/xservices1.png.pagespeed.ic.CUSBfud6Mi.webp"
-              width="360"
-              height="361"
-            />
+            <img src={lv1} style={{ width: "360px", height: "361px" }} />
           </a>
 
           <a href="#" style={{ marginLeft: "-3rem" }}>
-            <img src="https://preview.colorlib.com/theme/personalportfolio/assets/img/service/xservices3.png.pagespeed.ic._OiupxHuSe.webp" />
+            <img src={lv2} />
           </a>
         </Grid>
       </Grid>

@@ -1,8 +1,11 @@
 .services {
   margin-bottom: 10rem;
   margin-top: 10rem;
+  .cards {
+    border: 1px solid #e1ebf7;
+  }
   .cards:hover {
-    background: red;
+    background: #ff3d1c;
     color: white;
   }
   .services--Cards {

@@ -1,6 +1,9 @@
 import React from "react";
 import "./Logo1.scss";
 import Grid from "@mui/material/Grid";
+import lh1 from "../../Images/lh1.webp";
+import lh2 from "../../Images/lh2.webp";
+import lh3 from "../../Images/lh3.webp";
 
 const Logo1 = () => {
   return (
@@ -8,17 +11,13 @@ const Logo1 = () => {
       <Grid xs={12} container>
         <Grid item xs={12} className="logo--Nav--BottomImg">
           <a href="#">
-            <img src="https://preview.colorlib.com/theme/personalportfolio/assets/img/service/xservices4.png.pagespeed.ic.hVym9sD8pi.webp" />
+            <img src={lh1} />
           </a>
           <a href="#" style={{ marginLeft: "0.5rem" }}>
-            <img src="https://preview.colorlib.com/theme/personalportfolio/assets/img/service/xservices5.png.pagespeed.ic.RIUpuP8Qre.webp" />
+            <img src={lh2} />
           </a>
           <a href="#" style={{ marginLeft: "0.5rem" }}>
-            <img
-              src="https://preview.colorlib.com/theme/personalportfolio/assets/img/service/xservices6.png.pagespeed.ic.suCHqM6822.webp"
-              width="360"
-              height="361"
-            />
+            <img src={lh3} style={{ width: "360px", height: "361px" }} />
           </a>
         </Grid>
       </Grid>

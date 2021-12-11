@@ -1,6 +1,6 @@
 import * as React from "react";
+//import "./App.scss";
 import Navbar from "./Navbar/Navbar";
-import Home from "./Home/Home";
 import Homebody1 from "./Homebody1/Homebody1";
 import Homebody2 from "./Homebody2/Homebody2";
 import Homebody3 from "./Homebody3/Homebody3";

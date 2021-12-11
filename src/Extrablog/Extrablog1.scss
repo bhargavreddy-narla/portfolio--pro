@@ -36,4 +36,57 @@
       color: rgb(250, 86, 86);
     }
   }
+  .Blogpage--Cards--Pagination {
+    margin-top: 3rem;
+    margin-left: 20rem;
+  }
+  .Blogpage--Sidecontent {
+    margin-left: 3rem;
+    .Blogpage--Sidecontent--Input {
+      height: 50px;
+      width: 100%;
+      font-size: 13px;
+      color: #999;
+      padding-left: 20px;
+      display: block;
+      line-height: 1.5;
+      border: none;
+      background: rgb(252, 250, 250);
+    }
+    .Blogpage--Sidecontent--Button {
+      display: block;
+      width: 100%;
+      background: #fff;
+      color: #ec5b53 !important;
+      display: inline-block;
+      padding: 18px 44px;
+      font-family: "Rufina", serif;
+      font-size: 14px;
+      font-weight: 400;
+      border: 1px solid #ec5b53;
+      letter-spacing: 3px;
+      text-align: center;
+      text-transform: uppercase;
+      cursor: pointer;
+      margin-top: 1rem;
+    }
+    .Blogpage--Sidecontent--Card2 {
+      margin-top: 3rem;
+    }
+    .Blogpage--Sidecontent--Card2--H4 {
+      font-family: "Rufina", serif;
+      color: #000a2d;
+      margin-top: 0;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+    }
+    .Blogpage--Sidecontent--Card2 a {
+      display: block;
+      text-decoration: none;
+    }
+    .Blogpage--Sidecontent--Card2 a:hover {
+      color: red;
+    }
+  }
 }

@@ -1,6 +1,9 @@
 import React from "react";
 import "./Webdesign1.scss";
 import Grid from "@mui/material/Grid";
+import wbh1 from "../../Images/wbh1.webp";
+import wbh2 from "../../Images/wbh2.webp";
+import wbh3 from "../../Images/wbh3.webp";
 
 const Webdesign1 = () => {
   return (
@@ -8,17 +11,13 @@ const Webdesign1 = () => {
       <Grid xs={12} container>
         <Grid item xs={12} className="webdesign--Nav--BottomImg">
           <a href="#">
-            <img src="https://preview.colorlib.com/theme/personalportfolio/assets/img/service/xservices4.png.pagespeed.ic.hVym9sD8pi.webp" />
+            <img src={wbh1} />
           </a>
           <a href="#" style={{ marginLeft: "0.5rem" }}>
-            <img src="https://preview.colorlib.com/theme/personalportfolio/assets/img/service/xservices5.png.pagespeed.ic.RIUpuP8Qre.webp" />
+            <img src={wbh2} />
           </a>
           <a href="#" style={{ marginLeft: "0.5rem" }}>
-            <img
-              src="https://preview.colorlib.com/theme/personalportfolio/assets/img/service/xservices6.png.pagespeed.ic.suCHqM6822.webp"
-              width="360"
-              height="361"
-            />
+            <img src={wbh3} style={{ width: "360px", height: "361px" }} />
           </a>
         </Grid>
       </Grid>

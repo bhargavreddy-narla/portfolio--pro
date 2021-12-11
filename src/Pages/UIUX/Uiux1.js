@@ -1,6 +1,9 @@
 import React from "react";
 import "./Uiux1.scss";
 import Grid from "@mui/material/Grid";
+import uh1 from "../../Images/uh1.webp";
+import uh2 from "../../Images/uh2.webp";
+import uh3 from "../../Images/uh3.webp";
 
 const Uiux1 = () => {
   return (
@@ -8,17 +11,13 @@ const Uiux1 = () => {
       <Grid xs={12} container>
         <Grid item xs={12} className="uiux--Nav--BottomImg">
           <a href="#">
-            <img src="https://preview.colorlib.com/theme/personalportfolio/assets/img/service/xservices4.png.pagespeed.ic.hVym9sD8pi.webp" />
+            <img src={uh1} />
           </a>
           <a href="#" style={{ marginLeft: "0.5rem" }}>
-            <img src="https://preview.colorlib.com/theme/personalportfolio/assets/img/service/xservices5.png.pagespeed.ic.RIUpuP8Qre.webp" />
+            <img src={uh2} />
           </a>
           <a href="#" style={{ marginLeft: "0.5rem" }}>
-            <img
-              src="https://preview.colorlib.com/theme/personalportfolio/assets/img/service/xservices6.png.pagespeed.ic.suCHqM6822.webp"
-              width="360"
-              height="361"
-            />
+            <img src={uh3} style={{ width: "360px", height: "361px" }} />
           </a>
         </Grid>
       </Grid>

@@ -27,7 +27,6 @@
     margin-left: 10rem;
     font-size: 18px;
     line-height: 30px;
-    margin-bottom: 42px;
     font-weight: normal;
   }
   .home--Buttons {
@@ -43,7 +42,6 @@
       font-weight: 500;
       letter-spacing: 1px;
       z-index: 1;
-      margin-bottom: 15rem;
     }
     .home--Button2 {
       border: 1px solid #e3c6c6;
@@ -57,7 +55,9 @@
       letter-spacing: 1px;
       margin-left: 2rem;
       font-family: "Rubik", sans-serif;
-      margin-bottom: 15rem;
     }
+  }
+  .home--Img {
+    padding: 3rem 1rem 0 5rem;
   }
 }

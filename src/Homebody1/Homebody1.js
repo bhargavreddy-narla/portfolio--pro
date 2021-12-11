@@ -31,10 +31,8 @@ const Homebody1 = () => {
             hire@colorlib.com
           </a>
         </Grid>
-        <Grid item xs={3} className="homebody1--Icons">
-          <ArrowRightAltIcon />
-          <HorizontalRuleIcon />
-          <HorizontalRuleIcon />
+        <Grid item xs={3}>
+          <ArrowRightAltIcon className="homebody1--Icons" />
         </Grid>
       </Grid>
     </div>

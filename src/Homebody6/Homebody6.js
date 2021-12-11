@@ -1,6 +1,10 @@
 import React from "react";
 import "./Homebody6.scss";
 import Grid from "@mui/material/Grid";
+import vintage1 from "../Images/vintage1.webp";
+import vintage2 from "../Images/vintage2.webp";
+import vintage3 from "../Images/vintage3.webp";
+import vintage4 from "../Images/vintage4.webp";
 
 const Homebody6 = () => {
   return (
@@ -9,22 +13,22 @@ const Homebody6 = () => {
         <Grid xs={12} container>
           <Grid item xs={3}>
             <a href="#">
-              <img src="https://preview.colorlib.com/theme/personalportfolio/assets/img/gallery/xbrand1.png.pagespeed.ic.vsJKXq8o6n.webp" />
+              <img src={vintage1} />
             </a>
           </Grid>
           <Grid item xs={3}>
             <a href="#">
-              <img src="https://preview.colorlib.com/theme/personalportfolio/assets/img/gallery/xbrand4.png.pagespeed.ic.W5ZAIexfpO.webp" />
+              <img src={vintage2} />
             </a>
           </Grid>
           <Grid item xs={3}>
             <a href="#">
-              <img src="https://preview.colorlib.com/theme/personalportfolio/assets/img/gallery/xbrand2.png.pagespeed.ic.rFiXzXgh9r.webp" />
+              <img src={vintage3} />
             </a>
           </Grid>
           <Grid item xs={3}>
             <a href="#">
-              <img src="https://preview.colorlib.com/theme/personalportfolio/assets/img/gallery/xbrand3.png.pagespeed.ic.BidJFeCvq3.webp" />
+              <img src={vintage4} />
             </a>
           </Grid>
         </Grid>

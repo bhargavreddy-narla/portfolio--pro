@@ -1,13 +1,14 @@
 import React from "react";
 import "./About1.scss";
 import Grid from "@mui/material/Grid";
+import aboutimg from "../Images/aboutimg.webp";
 
 const About1 = () => {
   return (
     <div className="aboutpage--Body">
       <Grid xs={12} container>
         <Grid item xs={6}>
-          <img src="https://preview.colorlib.com/theme/personalportfolio/assets/img/gallery/xaboutme.png.pagespeed.ic.wJ8K68WHqJ.webp" />
+          <img src={aboutimg} />
         </Grid>
         <Grid item xs={4}>
           <h3 className="aboutpage--Body--H3">

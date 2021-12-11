@@ -12,7 +12,7 @@ const HomebodyCards2 = ({ content }) => {
     <div className="cardcontent">
       <Grid xs={12}>
         <Grid item xs={4}>
-          <Card sx={{ width: 350 }}>
+          <Card sx={{ width: 350 }} className="cards">
             <CardMedia
               className="cardcontent--Img"
               component="img"

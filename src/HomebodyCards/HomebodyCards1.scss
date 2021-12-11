@@ -8,6 +8,12 @@
   line-height: 1.5;
   margin-top: 5rem;
   margin-left: 5rem;
+  .cards {
+    border: 1px solid #e1ebf7;
+  }
+  .cards:hover {
+    background: #ff3d1c;
+  }
   .cardcontent {
     .cardcontent--H3 {
       color: #1c165c;
@@ -36,5 +42,20 @@
       border-radius: 50px;
       display: inline-block;
     }
+  }
+  @media screen and (max-width: 400px) {
+    width: 20%;
+    text-align: center;
+  }
+
+  @media screen and (max-width: 700px) {
+    width: 50%;
+    display: block;
+    text-align: center;
+  }
+
+  @media screen and (max-width: 1200px) {
+    width: 100%;
+    text-align: center;
   }
 }

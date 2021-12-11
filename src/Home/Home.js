@@ -1,18 +1,18 @@
 import React from "react";
 import "./Home.scss";
 import { motion } from "framer-motion";
+import mypic from "../Images/mypic.jpg";
 import Button from "@mui/material/Button";
 import Grid from "@mui/material/Grid";
 import { makeStyles } from "@material-ui/core/styles";
-
 
 const Home = () => {
   const useStyles = makeStyles(() => ({
     root: {
       minHeight: "100vh",
-      backgroundImage: `url(${
-        process.env.PUBLIC_URL + "/images/background1.webp"
-      })`,
+      // backgroundImage: `url(${
+      //   process.env.PUBLIC_URL + "/images/background1.webp"
+      // })`,
       backgroundRepeat: "no-repeat",
       backgroundSize: "cover",
     },
@@ -36,7 +36,8 @@ const Home = () => {
               transition={{ delay: 0.5 }}
               className="home--H1"
             >
-              I'm designer haris f. watson
+              {/* I'm designer haris f. watson */}
+              Bhargav Reddy
             </motion.h1>
             <motion.p
               animate={{ y: -50 }}
@@ -55,6 +56,9 @@ const Home = () => {
                 Hire me
               </Button>
             </div>
+          </Grid>
+          <Grid item xs={6} className="home--Img">
+            <img src={mypic} style={{ width: "70%", height: "90vh" }} />
           </Grid>
         </Grid>
       </div>

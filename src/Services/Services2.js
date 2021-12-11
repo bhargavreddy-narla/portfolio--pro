@@ -1,5 +1,6 @@
 import React from "react";
 import "./Services1.scss";
+import { motion } from "framer-motion";
 import Grid from "@mui/material/Grid";
 import Card from "@mui/material/Card";
 import CardMedia from "@mui/material/CardMedia";

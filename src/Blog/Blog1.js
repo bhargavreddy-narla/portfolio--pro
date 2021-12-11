@@ -1,5 +1,8 @@
 import React from "react";
 import "./Blog1.scss";
+import blogimg1 from "../Images/blogimg1.webp";
+import blogimg2 from "../Images/blogimg2.webp";
+import blogimg3 from "../Images/blogimg3.webp";
 import Grid from "@mui/material/Grid";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
@@ -21,10 +24,7 @@ const Blog1 = () => {
         <Grid item xs={7}>
           <Card className="Blogpage--Cards">
             <CardMedia>
-              <img
-                className="Blogpage--Cards--Img"
-                src="https://preview.colorlib.com/theme/personalportfolio/assets/img/blog/xsingle_blog_1.png.pagespeed.ic.Vb11bfvxZv.webp"
-              />
+              <img src={blogimg1} className="Blogpage--Cards--Img" />
             </CardMedia>
             <CardContent>
               <Typography>
@@ -53,11 +53,7 @@ const Blog1 = () => {
 
           <Card className="Blogpage--Cards" sx={{ marginTop: 5 }}>
             <CardMedia>
-              <img
-                className="Blogpage--Cards--Img"
-                sx={{ mt: 5 }}
-                src="https://preview.colorlib.com/theme/personalportfolio/assets/img/blog/xsingle_blog_2.png.pagespeed.ic.poum1l12np.webp"
-              />
+              <img src={blogimg2} className="Blogpage--Cards--Img" />
             </CardMedia>
             <CardContent>
               <Typography>
@@ -86,10 +82,7 @@ const Blog1 = () => {
 
           <Card className="Blogpage--Cards" sx={{ marginTop: 5 }}>
             <CardMedia>
-              <img
-                className="Blogpage--Cards--Img"
-                src="https://preview.colorlib.com/theme/personalportfolio/assets/img/blog/xsingle_blog_4.png.pagespeed.ic.cZ-GaUx1n2.webp"
-              />
+              <img src={blogimg3} className="Blogpage--Cards--Img" />
             </CardMedia>
             <CardContent>
               <Typography>

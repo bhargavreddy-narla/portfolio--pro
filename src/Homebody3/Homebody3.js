@@ -18,21 +18,11 @@ const Homebody3 = () => {
       </Grid>
       <div className="homebody3--Navbar--Links">
         <Router>
-          <Link to="/all">
-            <a href="#">All</a>
-          </Link>
-          <Link to="/brand">
-            <a href="#">Branding</a>
-          </Link>
-          <Link to="/logo">
-            <a href="#">Logo</a>
-          </Link>
-          <Link to="/ui/ux">
-            <a href="#">UI/UX</a>
-          </Link>
-          <Link to="/webdesign">
-            <a href="#">Web Design</a>
-          </Link>
+          <Link to="/all">All</Link>
+          <Link to="/brand">Branding</Link>
+          <Link to="/logo">Logo</Link>
+          <Link to="/ui/ux">UI/UX</Link>
+          <Link to="/webdesign">Web Design</Link>
           <Switch>
             <Route path="/all" exact component={All}></Route>
           </Switch>

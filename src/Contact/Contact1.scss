@@ -58,7 +58,21 @@
     font-size: 13px;
     background: transparent;
   }
-  .contactbopdy--Sidecontent {
+  .contact--Button {
+    background: #fff;
+    color: #ec5b53 !important;
+    display: inline-block;
+    padding: 18px 44px;
+    font-family: "Rufina", serif;
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid #ec5b53;
+    letter-spacing: 3px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-left: 2rem;
+    margin-top: 1rem;
   }
   .contactbody--Address {
     margin-top: -3rem;
