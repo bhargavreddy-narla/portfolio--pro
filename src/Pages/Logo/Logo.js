@@ -11,18 +11,26 @@ const Logo = () => {
     <div className="logo--Content--Links">
       <Grid xs={12} container>
         <Grid item xs={8} className="logo--Content--Links--Main">
-          <a href="#">
-            <img src={lb1} style={{ width: "750px", height: "751px" }} />
-          </a>
+          <span>
+            <img
+              src={lb1}
+              alt="logopage"
+              style={{ width: "750px", height: "751px", marginLeft: "4rem" }}
+            />
+          </span>
         </Grid>
         <Grid item xs={4} className="logo--Content--Links--Sideimages">
-          <a href="#" style={{ marginLeft: "-3rem" }}>
-            <img src={lv1} style={{ width: "360px", height: "361px" }} />
-          </a>
+          <span style={{ marginLeft: "-3rem" }}>
+            <img
+              src={lv1}
+              alt="logopage"
+              style={{ width: "360px", height: "361px" }}
+            />
+          </span>
 
-          <a href="#" style={{ marginLeft: "-3rem" }}>
-            <img src={lv2} />
-          </a>
+          <span style={{ marginLeft: "-3rem" }}>
+            <img src={lv2} alt="logopage" />
+          </span>
         </Grid>
       </Grid>
       <Logo1 />

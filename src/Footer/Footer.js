@@ -12,13 +12,9 @@ const Footer = () => {
   return (
     <div className="footer">
       <center>
-        <a href="#">
-          <img src={portimg} className="footer--Img" />
-        </a>
+        <img src={portimg} className="footer--Img" alt="portfoliologo" />
       </center>
-      <h2 className="footer--H2">
-        <a href="#">hireme@portfolio.com</a>
-      </h2>
+      <h2 className="footer--H2">hireme@portfolio.com</h2>
       <p className="footer--P1">221B Baker Street, Post office Box 353</p>
       <p className="footer--P2">Park Road, USA - 215431</p>
       <Grid xs={12} container>
@@ -27,25 +23,25 @@ const Footer = () => {
             Copyright ©2021 All rights reserved | This template is made with
             <FavoriteBorderIcon className="footer--P3--Favicon" />
             by
-            <a href="#"> Colorlib</a>
+            <span className="footer--Colorlib"> Colorlib</span>
           </p>
         </Grid>
 
         <Grid item xs={2}>
           <div className="footer--SocialLinks">
-            <a href="#">Stay connected</a>
-            <a href="#">
+            <span className="footer--SocialLinks">Stay connected</span>
+            <span className="footer--SocialLinks">
               <TwitterIcon />
-            </a>
-            <a href="#">
+            </span>
+            <span className="footer--SocialLinks">
               <FacebookIcon />
-            </a>
-            <a href="#">
+            </span>
+            <span className="footer--SocialLinks">
               <LanguageIcon />
-            </a>
-            <a href="#">
+            </span>
+            <span className="footer--SocialLinks">
               <InstagramIcon />
-            </a>
+            </span>
           </div>
         </Grid>
       </Grid>

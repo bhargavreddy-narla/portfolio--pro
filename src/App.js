@@ -1,5 +1,4 @@
 import * as React from "react";
-//import "./App.scss";
 import Navbar from "./Navbar/Navbar";
 import Homebody1 from "./Homebody1/Homebody1";
 import Homebody2 from "./Homebody2/Homebody2";

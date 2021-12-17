@@ -24,11 +24,10 @@ const Contact = () => {
           <h2 className="contactpage--H2">Contact Us</h2>
           <Breadcrumbs className="contactpage--Breadcrumbs">
             <Typography>
-              {" "}
-              <a href="#">Home</a>
+              <span>Home</span>
             </Typography>
             <Typography>
-              <a href="#">Contact</a>
+              <span>Contact</span>
             </Typography>
           </Breadcrumbs>
         </div>

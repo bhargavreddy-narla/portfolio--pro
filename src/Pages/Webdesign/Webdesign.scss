@@ -1,6 +1,8 @@
 .webdesign--Content--Links {
   margin-top: 5rem;
-  .webdesign--Content--Links--Sideimages a {
+  cursor: pointer;
+  .webdesign--Content--Links--Sideimages {
+    cursor: pointer;
     width: 100%;
   }
 }

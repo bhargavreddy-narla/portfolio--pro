@@ -24,12 +24,16 @@ const Blog1 = () => {
         <Grid item xs={7}>
           <Card className="Blogpage--Cards">
             <CardMedia>
-              <img src={blogimg1} className="Blogpage--Cards--Img" />
+              <img
+                src={blogimg1}
+                alt="blogimg"
+                className="Blogpage--Cards--Img"
+              />
             </CardMedia>
             <CardContent>
               <Typography>
                 <h3 className="Blogpage--Cards--H3">
-                  <a href="#">Google inks pact for new 35-storey office</a>
+                  <span>Google inks pact for new 35-storey office</span>
                 </h3>
               </Typography>
               <Typography>
@@ -40,25 +44,29 @@ const Blog1 = () => {
                 </p>
               </Typography>
               <div className="Blogpage--Cards--Icons">
-                <a href="#">
+                <span>
                   <PersonOutlineIcon /> Travel,Lifestyle
-                </a>{" "}
+                </span>
                 |
-                <a href="#">
+                <span>
                   <QuestionAnswerIcon /> 03 Comments
-                </a>
+                </span>
               </div>
             </CardContent>
           </Card>
 
           <Card className="Blogpage--Cards" sx={{ marginTop: 5 }}>
             <CardMedia>
-              <img src={blogimg2} className="Blogpage--Cards--Img" />
+              <img
+                src={blogimg2}
+                alt="blogimg"
+                className="Blogpage--Cards--Img"
+              />
             </CardMedia>
             <CardContent>
               <Typography>
                 <h3 className="Blogpage--Cards--H3">
-                  <a href="#">Google inks pact for new 35-storey office</a>
+                  <span>Google inks pact for new 35-storey office</span>
                 </h3>
               </Typography>
               <Typography>
@@ -69,25 +77,29 @@ const Blog1 = () => {
                 </p>
               </Typography>
               <div className="Blogpage--Cards--Icons">
-                <a href="#">
+                <span>
                   <PersonOutlineIcon /> Travel,Lifestyle
-                </a>
+                </span>
                 |
-                <a href="#">
+                <span>
                   <QuestionAnswerIcon /> 03 Comments
-                </a>
+                </span>
               </div>
             </CardContent>
           </Card>
 
           <Card className="Blogpage--Cards" sx={{ marginTop: 5 }}>
             <CardMedia>
-              <img src={blogimg3} className="Blogpage--Cards--Img" />
+              <img
+                src={blogimg3}
+                alt="blogimg"
+                className="Blogpage--Cards--Img"
+              />
             </CardMedia>
             <CardContent>
               <Typography>
                 <h3 className="Blogpage--Cards--H3">
-                  <a href="#">Google inks pact for new 35-storey office</a>
+                  <span>Google inks pact for new 35-storey office</span>
                 </h3>
               </Typography>
               <Typography>
@@ -98,13 +110,13 @@ const Blog1 = () => {
                 </p>
               </Typography>
               <div className="Blogpage--Cards--Icons">
-                <a href="#">
+                <span>
                   <PersonOutlineIcon /> Travel,Lifestyle
-                </a>{" "}
+                </span>
                 |
-                <a href="#">
+                <span>
                   <QuestionAnswerIcon /> 03 Comments
-                </a>
+                </span>
               </div>
             </CardContent>
           </Card>
@@ -142,32 +154,44 @@ const Blog1 = () => {
                     </TableRow>
                     <TableRow>
                       <TableCell>
-                        <a href="#">Resturant Food(37)</a>
+                        <span className="Blogpage--Sidecontent--Card2">
+                          Resturant Food(37)
+                        </span>
                       </TableCell>
                     </TableRow>
                     <TableRow>
                       <TableCell>
-                        <a href="#">Travel news(10)</a>
+                        <span className="Blogpage--Sidecontent--Card2">
+                          Travel news(10)
+                        </span>
                       </TableCell>
                     </TableRow>
                     <TableRow>
                       <TableCell>
-                        <a href="#">Modern Technology(03)</a>
+                        <span className="Blogpage--Sidecontent--Card2">
+                          Modern Technology(03)
+                        </span>
                       </TableCell>
                     </TableRow>
                     <TableRow>
                       <TableCell>
-                        <a href="#">Product(11)</a>
+                        <span className="Blogpage--Sidecontent--Card2">
+                          Product(11)
+                        </span>
                       </TableCell>
                     </TableRow>
                     <TableRow>
                       <TableCell>
-                        <a href="#">Inspiration21</a>
+                        <span className="Blogpage--Sidecontent--Card2">
+                          Inspiration21
+                        </span>
                       </TableCell>
                     </TableRow>
                     <TableRow>
                       <TableCell>
-                        <a href="#">Health Care(21)09</a>
+                        <span className="Blogpage--Sidecontent--Card2">
+                          Health Care(21)09
+                        </span>
                       </TableCell>
                     </TableRow>
                   </TableBody>

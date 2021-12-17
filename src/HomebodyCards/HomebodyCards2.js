@@ -1,5 +1,4 @@
 import React from "react";
-import { motion } from "framer-motion";
 import "./HomebodyCards1.scss";
 import Grid from "@mui/material/Grid";
 import Card from "@mui/material/Card";

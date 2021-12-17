@@ -17,10 +17,8 @@ const Sample = () => {
       <div class="navbar">
         <Grid xs={12} container>
           <Grid item xs={4}>
-            <a href="#">
-              {/* src={portlogo1} */}
-              <img className="navbar--img" src={plogo} />
-            </a>
+            {/* src={portlogo1} */}
+            <img className="navbar--img" src={plogo} alt="logo" />
           </Grid>
           <Grid item xs={8} className="navbar--Links">
             <ul>

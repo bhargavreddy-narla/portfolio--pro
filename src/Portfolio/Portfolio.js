@@ -24,11 +24,10 @@ const Portfolio = () => {
           <h2 className="portfoliopage--H2">My Portfolio</h2>
           <Breadcrumbs className="portfoliopage--Breadcrumbs">
             <Typography>
-              {" "}
-              <a href="#">Home</a>
+              <span>Home</span>
             </Typography>
             <Typography>
-              <a href="#">My Portfolio</a>
+              <span>My Portfolio</span>
             </Typography>
           </Breadcrumbs>
         </div>

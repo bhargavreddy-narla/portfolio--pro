@@ -12,24 +12,24 @@ const Homebody6 = () => {
       <center>
         <Grid xs={12} container>
           <Grid item xs={3}>
-            <a href="#">
-              <img src={vintage1} />
-            </a>
+            <span>
+              <img src={vintage1} alt="vintage" />
+            </span>
           </Grid>
           <Grid item xs={3}>
-            <a href="#">
-              <img src={vintage2} />
-            </a>
+            <span>
+              <img src={vintage2} alt="vintage" />
+            </span>
           </Grid>
           <Grid item xs={3}>
-            <a href="#">
-              <img src={vintage3} />
-            </a>
+            <span>
+              <img src={vintage3} alt="vintage" />
+            </span>
           </Grid>
           <Grid item xs={3}>
-            <a href="#">
-              <img src={vintage4} />
-            </a>
+            <span>
+              <img src={vintage4} alt="vintage" />
+            </span>
           </Grid>
         </Grid>
       </center>

@@ -58,7 +58,11 @@ const Home = () => {
             </div>
           </Grid>
           <Grid item xs={6} className="home--Img">
-            <img src={mypic} style={{ width: "70%", height: "90vh" }} />
+            <img
+              src={mypic}
+              alt="myimage"
+              style={{ width: "70%", height: "90vh" }}
+            />
           </Grid>
         </Grid>
       </div>

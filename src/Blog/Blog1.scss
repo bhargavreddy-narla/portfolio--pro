@@ -6,18 +6,19 @@
     .Blogpage--Cards--Img {
       width: 100%;
     }
-    .Blogpage--Cards--H3 a {
+    .Blogpage--Cards--H3 {
       font-family: "Rufina", serif;
       color: #000a2d;
       font-style: normal;
       font-weight: 600;
       font-size: 24px;
       margin-bottom: 15px;
-      line-height: 1.2;
+      line-height: 1;
       margin-left: 1rem;
       text-decoration: none;
+      cursor: pointer;
     }
-    .Blogpage--Cards--H3 a:hover {
+    .Blogpage--Cards--H3:hover {
       color: rgb(250, 86, 86);
     }
     .Blogpage--Cards--P1 {
@@ -29,11 +30,12 @@
       margin-bottom: 30px;
       margin-left: 1rem;
     }
-    .Blogpage--Cards--Icons a {
+    .Blogpage--Cards--Icons {
       text-decoration: none;
       color: #999;
+      cursor: pointer;
     }
-    .Blogpage--Cards--Icons a:hover {
+    .Blogpage--Cards--Icons:hover {
       color: rgb(250, 86, 86);
     }
   }
@@ -82,11 +84,11 @@
       font-weight: 500;
       font-size: 20px;
     }
-    .Blogpage--Sidecontent--Card2 a {
-      display: block;
+    .Blogpage--Sidecontent--Card2 {
       text-decoration: none;
+      cursor: pointer;
     }
-    .Blogpage--Sidecontent--Card2 a:hover {
+    .Blogpage--Sidecontent--Card2:hover {
       color: red;
     }
   }

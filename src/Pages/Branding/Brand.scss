@@ -1,7 +1,8 @@
-.brand--Content--Links {
+.brand--Content--Links--Main {
   margin-top: 5rem;
-  .brand--Content--Links--Sideimages a {
+  cursor: pointer;
+  .brand--Content--Links--Sideimages {
     width: 100%;
-    
+    cursor: pointer;
   }
 }

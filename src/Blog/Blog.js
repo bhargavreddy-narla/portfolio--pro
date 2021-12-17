@@ -24,10 +24,10 @@ const Blog = () => {
           <h2 className="blogpage--H2">Blog Area</h2>
           <Breadcrumbs className="blogpage--Breadcrumbs">
             <Typography>
-              <a href="#">Home</a>
+              <span>Home</span>
             </Typography>
             <Typography>
-              <a href="#">Blog</a>
+              <span>Blog</span>
             </Typography>
           </Breadcrumbs>
         </div>

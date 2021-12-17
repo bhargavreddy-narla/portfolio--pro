@@ -10,15 +10,19 @@ const Uiux1 = () => {
     <div className="uiux--Nav">
       <Grid xs={12} container>
         <Grid item xs={12} className="uiux--Nav--BottomImg">
-          <a href="#">
-            <img src={uh1} />
-          </a>
-          <a href="#" style={{ marginLeft: "0.5rem" }}>
-            <img src={uh2} />
-          </a>
-          <a href="#" style={{ marginLeft: "0.5rem" }}>
-            <img src={uh3} style={{ width: "360px", height: "361px" }} />
-          </a>
+          <span>
+            <img src={uh1} alt="ui" style={{ marginLeft: "4rem" }} />
+          </span>
+          <span>
+            <img src={uh2} alt="ui" style={{ marginLeft: "2rem" }} />
+          </span>
+          <span>
+            <img
+              src={uh3}
+              alt="ui"
+              style={{ width: "360px", height: "361px", marginLeft: "2rem" }}
+            />
+          </span>
         </Grid>
       </Grid>
     </div>

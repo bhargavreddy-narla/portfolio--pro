@@ -25,10 +25,10 @@ const About = () => {
           <Breadcrumbs className="aboutpage--Breadcrumbs">
             <Typography>
               {" "}
-              <a href="#">Home</a>
+              <span>Home</span>
             </Typography>
             <Typography>
-              <a href="#">About Me</a>
+              <span>About Me</span>
             </Typography>
           </Breadcrumbs>
         </div>

@@ -10,15 +10,15 @@ const All1 = () => {
     <div className="all--Nav">
       <Grid xs={12} container>
         <Grid item xs={12} className="all--Nav--BottomImg">
-          <a href="#">
-            <img src={allh1} />
-          </a>
-          <a href="#" style={{ marginLeft: "1rem" }}>
-            <img src={allh2} />
-          </a>
-          <a href="#" style={{ marginLeft: "1rem" }}>
-            <img src={allh3} />
-          </a>
+          <span>
+            <img src={allh1} alt="allpage" style={{ marginLeft: "4rem" }} />
+          </span>
+          <span>
+            <img src={allh2} alt="allpage" style={{ marginLeft: "2rem" }} />
+          </span>
+          <span>
+            <img src={allh3} alt="allpage" style={{ marginLeft: "2rem" }} />
+          </span>
         </Grid>
       </Grid>
     </div>

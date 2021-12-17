@@ -8,7 +8,7 @@ const About1 = () => {
     <div className="aboutpage--Body">
       <Grid xs={12} container>
         <Grid item xs={6}>
-          <img src={aboutimg} />
+          <img src={aboutimg} alt="aboutimg" />
         </Grid>
         <Grid item xs={4}>
           <h3 className="aboutpage--Body--H3">

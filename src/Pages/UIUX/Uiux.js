@@ -11,18 +11,26 @@ const Uiux = () => {
     <div className="uiux--Content--Links">
       <Grid xs={12} container>
         <Grid item xs={8} className="uiux--Content--Links--Main">
-          <a href="#">
-            <img src={ub1} style={{ width: "750px", height: "751px" }} />
-          </a>
+          <span>
+            <img
+              src={ub1}
+              alt="ui"
+              style={{ width: "750px", height: "751px", marginLeft: "4rem" }}
+            />
+          </span>
         </Grid>
         <Grid item xs={4} className="uiux--Content--Links--Sideimages">
-          <a href="#" style={{ marginLeft: "-3rem" }}>
-            <img src={uv1} style={{ width: "360px", height: "361px" }} />
-          </a>
+          <span style={{ marginLeft: "-3rem" }}>
+            <img
+              src={uv1}
+              alt="ui"
+              style={{ width: "360px", height: "361px" }}
+            />
+          </span>
 
-          <a href="#" style={{ marginLeft: "-3rem" }}>
-            <img src={uv2} />
-          </a>
+          <span style={{ marginLeft: "-3rem" }}>
+            <img src={uv2} alt="ui" />
+          </span>
         </Grid>
       </Grid>
       <Uiux1 />

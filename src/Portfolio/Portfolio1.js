@@ -21,19 +21,19 @@ const Portfolio1 = () => {
       <div className="portfolio1--Navbar--Links">
         <Router>
           <Link to="/all">
-            <a href="#">All</a>
+            <span>All</span>
           </Link>
           <Link to="/brand">
-            <a href="#">Branding</a>
+            <span>Branding</span>
           </Link>
           <Link to="/logo">
-            <a href="#">Logo</a>
+            <span>Logo</span>
           </Link>
           <Link to="/ui/ux">
-            <a href="#">UI/UX</a>
+            <span>UI/UX</span>
           </Link>
           <Link to="/webdesign">
-            <a href="#">Web Design</a>
+            <span>Web Design</span>
           </Link>
           <Switch>
             <Route path="/all" exact component={All}></Route>

@@ -2,6 +2,7 @@
   background-color: #080827;
   .footer--Img {
     margin-top: 8rem;
+    cursor: pointer;
   }
   .footer--H2 a {
     font-size: 50px;
@@ -12,6 +13,9 @@
   }
   .footer--H2 {
     text-align: center !important;
+    color: white;
+    font-size: 3rem;
+    cursor: pointer;
   }
   .footer--P1 {
     color: #c5c5dd;
@@ -48,13 +52,19 @@
   .footer--P3--Favicon {
     color: red;
   }
-  .footer--SocialLinks a {
-    margin-top: 10rem;
+  .footer--Colorlib {
+    cursor: pointer;
+    color: red;
+  }
+  .footer--SocialLinks {
+    margin-top: 5rem;
     color: #848493;
     font-size: 14px;
     text-align: center;
     display: inline-block;
     text-decoration: none;
     margin-bottom: 2rem;
+    padding: 0px 3px;
+    cursor: pointer;
   }
 }

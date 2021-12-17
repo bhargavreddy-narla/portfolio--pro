@@ -11,18 +11,18 @@ const All = () => {
     <div className="all--Content--Links">
       <Grid xs={12} container>
         <Grid item xs={8} className="all--Content--Links--Main">
-          <a href="#">
-            <img src={allb1} />
-          </a>
+          <span>
+            <img src={allb1} alt="allpage" style={{ marginLeft: "4rem" }} />
+          </span>
         </Grid>
         <Grid item xs={4} className="all--Content--Links--Sideimages">
-          <a href="#">
-            <img src={averone} />
-          </a>
+          <span style={{ marginLeft: "3rem" }}>
+            <img src={averone} alt="allpage" />
+          </span>
 
-          <a href="#">
-            <img src={allver2} />
-          </a>
+          <span style={{ marginLeft: "3rem" }}>
+            <img src={allver2} alt="allpage" />
+          </span>
         </Grid>
       </Grid>
       <All1 />

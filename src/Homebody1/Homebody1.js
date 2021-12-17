@@ -2,7 +2,6 @@ import React from "react";
 import "./Homebody1.scss";
 import Grid from "@mui/material/Grid";
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
-import HorizontalRuleIcon from "@mui/icons-material/HorizontalRule";
 
 const Homebody1 = () => {
   return (
@@ -27,9 +26,7 @@ const Homebody1 = () => {
             Any Type Of Query & Discussion.
           </h2>
           <p className="homebody1--Para2">Late talk with me</p>
-          <a href="#" className="homebody1--Link">
-            hire@colorlib.com
-          </a>
+          <span className="homebody1--Link">hire@colorlib.com</span>
         </Grid>
         <Grid item xs={3}>
           <ArrowRightAltIcon className="homebody1--Icons" />

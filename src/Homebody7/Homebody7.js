@@ -32,6 +32,7 @@ const Homebody6 = () => {
             <img
               className="homebody7--Img"
               src="https://preview.colorlib.com/theme/personalportfolio/assets/img/gallery/xsin.png.pagespeed.ic.4L7r6tiIs5.webp"
+              alt="myimage"
             />
           </Grid>
           <Grid item xs={6}>

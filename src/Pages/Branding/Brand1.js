@@ -10,15 +10,19 @@ const Brand1 = () => {
     <div className="brand--Nav">
       <Grid xs={12} container>
         <Grid item xs={12} className="brand--Nav--BottomImg">
-          <a href="#">
-            <img src={brandh1} />
-          </a>
-          <a href="#" style={{ marginLeft: "0.5rem" }}>
-            <img src={brandh2} />
-          </a>
-          <a href="#" style={{ marginLeft: "0.5rem" }}>
-            <img src={brandh3} style={{ width: "360px", height: "361px" }} />
-          </a>
+          <span>
+            <img src={brandh1} alt="brand" style={{ marginLeft: "4rem" }} />
+          </span>
+          <span>
+            <img src={brandh2} alt="brand" style={{ marginLeft: "2rem" }} />
+          </span>
+          <span>
+            <img
+              src={brandh3}
+              alt="brand"
+              style={{ width: "360px", height: "361px", marginLeft: "2rem" }}
+            />
+          </span>
         </Grid>
       </Grid>
     </div>
