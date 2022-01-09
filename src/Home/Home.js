@@ -37,7 +37,7 @@ const Home = () => {
               className="home--H1"
             >
               {/* I'm designer haris f. watson */}
-              Bhargav Reddy
+              Bhargav Reddy Narla
             </motion.h1>
             <motion.p
               animate={{ y: -50 }}
