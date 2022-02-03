@@ -1,14 +1,18 @@
 import React from "react";
 import "./About1.scss";
+import mypic from "../Images/mypic.jpg";
 import Grid from "@mui/material/Grid";
-import aboutimg from "../Images/aboutimg.webp";
 
 const About1 = () => {
   return (
     <div className="aboutpage--Body">
       <Grid xs={12} container>
         <Grid item xs={6}>
-          <img src={aboutimg} alt="aboutimg" />
+          <img
+            src={mypic}
+            alt="myimage"
+            style={{ width: "70%", height: "90vh" }}
+          />
         </Grid>
         <Grid item xs={4}>
           <h3 className="aboutpage--Body--H3">

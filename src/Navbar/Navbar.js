@@ -17,7 +17,6 @@ const Sample = () => {
       <div class="navbar">
         <Grid xs={12} container>
           <Grid item xs={4}>
-            {/* src={portlogo1} */}
             <img className="navbar--img" src={plogo} alt="logo" />
           </Grid>
           <Grid item xs={8} className="navbar--Links">
